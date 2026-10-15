@@ -64,6 +64,7 @@ fn main() {
             let driver = match name.as_str() {
                 "node_tty_pty" => Some("tty_pty.py"),
                 "node_stdio_sigwinch" => Some("stdio_sigwinch_pty.py"),
+                "node_tty_reset" => Some("tty_reset.py"),
                 _ => None,
             };
             let mut cmd = if let Some(driver) = driver {
