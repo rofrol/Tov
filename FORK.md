@@ -69,12 +69,14 @@ that needs it).
 
 | PR | upstream head | why we carry it |
 |---|---|---|
-| https://github.com/richiemcilroy/Tov/pull/14 | `8ecc0a4` | web globals such as `TextEncoder` in imported modules (issue #11) |
 | https://github.com/richiemcilroy/Tov/pull/17 | `81b211b` | `process.stdin` as a stream with `setRawMode`; our `tty_wrap` work (issue #31) builds on it |
 
 Considered and not carried (consult round `20261013-133024-8c18`): #18
 (binary fs), #19 (narrowing) and #16 (wait until needed); #15, #25, #26,
 #27 and #3 (no effect on herdr-tov yet); #5 and #6 (not code).
+
+Merged upstream since (dropped by the rebase of 2026-10-15): #14 (carried
+until then), #5, #6, #15, #16, #18, #25 and #26.
 
 ## Tags
 
